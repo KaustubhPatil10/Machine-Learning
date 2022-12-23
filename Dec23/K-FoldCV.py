@@ -84,4 +84,3 @@ gcv=GridSearchCV(pipe,param_grid=params,scoring='r2',cv=kfold)
 gcv.fit(X,y)
 print(gcv.best_params_)
 print(gcv.best_score_)
-
