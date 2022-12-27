@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Gender,TT_gt_100
 F,Y
 M,Y
@@ -19,3 +20,26 @@ F,Y
 M,Y
 M,N
 M,N
+=======
+Gender,TT_gt_100
+F,Y
+M,Y
+F,N
+M,N
+F,N
+F,Y
+M,N
+M,Y
+F,N
+F,Y
+F,N
+M,N
+M,Y
+F,Y
+F,N
+F,N
+F,Y
+M,Y
+M,N
+M,N
+>>>>>>> ac65ac087a9ae528253b39c5f774031d92dde546
