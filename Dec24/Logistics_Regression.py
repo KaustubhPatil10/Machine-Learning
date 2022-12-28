@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -165,5 +165,3 @@ gcv=GridSearchCV(pipe,param_grid=params,verbose=3,
 gcv.fit(X,y)
 print(gcv.best_params_)
 print(gcv.best_score_)
-
->>>>>>> ac65ac087a9ae528253b39c5f774031d92dde546
