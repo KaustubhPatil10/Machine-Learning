@@ -85,7 +85,7 @@ print(roc_auc_score(y_test,y_pred_prob))
 ##Grid search cv ###
 
 kfold=StratifiedKFold(n_splits=5,shuffle=True,random_state=2022)
-params ={'max_features':np.arange(3,15)}
+.
 
 gcv=GridSearchCV(rf,param_grid=params,verbose=3,
                  scoring='roc_auc',cv=kfold)
